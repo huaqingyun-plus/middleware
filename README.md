@@ -1,5 +1,5 @@
 # middleware
-Operator-based middlewares
+Containered-based middlewares
 
 # 1 Docker-based
 
@@ -40,6 +40,7 @@ curl http://10.244.48.202:15672
 
 ### 2.1.4 Prometheus
 
+Coming soon...
 
 ### 2.1.5 More parameters
 
@@ -76,6 +77,8 @@ curl http://10.244.48.202:15672
 ```
 
 ### 2.2.4 Prometheus
+
+Coming soon
 
 ```
 https://github.com/strimzi/strimzi-kafka-operator/tree/master/metrics/examples/prometheus/install
