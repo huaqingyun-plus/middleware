@@ -41,6 +41,10 @@ curl http://10.244.48.202:15672
 ### 2.1.4 Prometheus
 
 
+### 2.1.5 More parameters
+
+Please see https://github.com/indeedeng/rabbitmq-operator
+
 
 ## 2.2 Kafka
 
@@ -63,7 +67,7 @@ https://raw.githubusercontent.com/kubesys/kubeOS/master/yamls/kafka/instance-kaf
 ```
 [root@ali3 rabbitmq]# kubectl get po -o wide
 NAME                                 READY   STATUS    RESTARTS   AGE     IP              NODE   NOMINATED NODE   READINESS GATES
-rabbitmq-instance-0                  0/1     Running   0          5m40s   10.244.48.202   ali3   <none>           <none>
+rabbitmq-instance-0                  1/1     Running   0          5m40s   10.244.48.202   ali3   <none>           <none>
 rabbitmq-operator-55d4f6545f-4m6mc   1/1     Running   0          16h     10.244.48.199   ali3   <none>           <none>
 ```
 
@@ -76,3 +80,8 @@ curl http://10.244.48.202:15672
 ```
 https://github.com/strimzi/strimzi-kafka-operator/tree/master/metrics/examples/prometheus/install
 ```
+
+### 2.2.5 More parameters
+
+Please see https://strimzi.io/docs/overview/latest/#configuration-points_str
+
