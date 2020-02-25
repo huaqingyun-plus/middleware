@@ -88,3 +88,18 @@ https://github.com/strimzi/strimzi-kafka-operator/tree/master/metrics/examples/p
 
 Please see https://strimzi.io/docs/overview/latest/#configuration-points_str
 
+# 3 Helm-based
+
+## 3.1 RabbitMQ
+
+https://github.com/helm/charts/tree/master/stable/rabbitmq
+https://github.com/helm/charts/tree/master/stable/rabbitmq-ha
+
+## 3.2 Kafka
+
+https://github.com/helm/charts/tree/master/stable/kafka-manager
+
+
+## 3.3 Tensorflow
+
+https://github.com/helm/charts/tree/master/stable/distributed-tensorflow
