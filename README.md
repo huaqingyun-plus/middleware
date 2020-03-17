@@ -1,5 +1,5 @@
 # middleware
-Containered-based middlewares
+Containered-based middlewares, see https://github.com/kubesys/kubeOS/tree/master/middleware-helm
 
 # 1 Docker-based
 
